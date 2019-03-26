@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 38D69710222B36310038963B /* Build configuration list for PBXProject "FindMyRackAPL" */;
+			buildConfigurationList = 38D69710222B36310038963B /* Build configuration list for PBXProject "Kickstand" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7DCB8W45G;
 				INFOPLIST_FILE = FindMyRackAPL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7DCB8W45G;
 				INFOPLIST_FILE = FindMyRackAPL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38D69710222B36310038963B /* Build configuration list for PBXProject "FindMyRackAPL" */ = {
+		38D69710222B36310038963B /* Build configuration list for PBXProject "Kickstand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38D6973B222B36310038963B /* Debug */,
