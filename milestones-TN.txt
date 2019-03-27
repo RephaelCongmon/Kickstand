@@ -1,0 +1,7 @@
+Developing code that involves the MapKit/Corelocation api                              - 10 Points
+Add bikerack locations                                                                 - 5 points
+Add annotation markers to these locations                                              - 5 points
+Create code that will route from current location to nearest bikerack                  - 10 points
+Make User Interface (add tabs at the bottom, maybe include an option to add bikerack?) - 10 points
+                                                                                       ---------------------------------------
+                                                                                       ______ / 40 points
