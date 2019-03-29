@@ -1,0 +1,6 @@
+Developing code that involves the MapKit/Corelocation api                              - 10 Points
+Add bikerack locations in excel                                                        - 10 points
+Add bikerack latitude and longitude data to excel sheet and format for app to utilize  - 15 points
+Make User Interface                                                                    - 5 points
+                                                                                       ---------------------------------------
+                                                                                       ______ / 40 points
