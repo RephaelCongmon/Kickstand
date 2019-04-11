@@ -8,13 +8,15 @@ let annotationLocations = [
 ]
 
 var i = 0;
-var currentLatitude = 35.961613
+var currentLatitude = 36.961613
 var currentLongitude = -83.882901
+var minimumDistance = 99999.9;
+var minIndex = 0;
 
 for object in annotationLocations{
 
     if let actualLongitude = object["longitude"] as? Double, let actualLatitude = object["latitude"] as? Double {
-     print(i, ": longitude = ", actualLongitude, "   latitude = ", actualLatitude)
+     //print(i, ": longitude = ", actualLongitude, "   latitude = ", actualLatitude)
      
      var distanceLatitude = actualLatitude - currentLatitude
      if distanceLatitude < 0{
@@ -28,19 +30,24 @@ for object in annotationLocations{
      if distanceLongitude < 0 {
          distanceLongitude *= -1
      }
-     
+
      var distance = distanceLatitude + distanceLongitude
-
-     print(distance)
- 
-
+    if (distance < minimumDistance){
+        minimumDistance = distance
+        minIndex = i
     }
 
+     //print("Distance from current location: ", distance, "\n")
+ 
+    }
     i += 1
 }
+print("The minimum Distance = ", minimumDistance, " and is on index ", minIndex)
+if let actualNode = annotationLocations[minIndex]["title"] {
+    print(actualNode)
+}
 
-print ("\n")
-
+print("\n\n")
 // If u want specific index, do this: Index = 0
 if let actualLongitude = annotationLocations[0]["title"] {
     print (actualLongitude)
